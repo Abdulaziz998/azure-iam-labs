@@ -26,15 +26,23 @@ Azure Portal → Resource Groups → iam-lab-rg → Access control (IAM)
 
 Screenshot:
 
-![IAM Overview](screenshots/01-resource-group-iam-overview.png)
+![IAM Overview](screenshots/resource-group-iam-overview.png)
 
 ---
 
-## Step 2: Select Role
+## Step 2: Add Role Assignment
 
 Click:
 
 Add → Add role assignment
+
+Screenshot:
+
+![Add Role Assignment Members](screenshots/add-role-assignment-members.png)
+
+---
+
+## Step 3: Select Reader Role
 
 Select role:
 
@@ -42,11 +50,11 @@ Reader
 
 Screenshot:
 
-![Select Reader Role](screenshots/02-select-reader-role.png)
+![Select Reader Role](screenshots/select-reader-role.png)
 
 ---
 
-## Step 3: Select Member
+## Step 4: Select Member
 
 Assign role to user:
 
@@ -54,11 +62,11 @@ Abdulaziz Abdi
 
 Screenshot:
 
-![Select Member](screenshots/03-select-member-for-role.png)
+![Select Member](screenshots/select-member-for-role.png)
 
 ---
 
-## Step 4: Review and Assign Role
+## Step 5: Review and Assign Role
 
 Verify:
 
@@ -68,17 +76,17 @@ Verify:
 
 Screenshot:
 
-![Review Assignment](screenshots/04-review-role-assignment.png)
+![Review Role Assignment](screenshots/review-role-assignment.png)
 
 ---
 
-## Step 5: Verify Role Assignment
+## Step 6: Verify Role Assignment
 
 Confirm role assignment appears in IAM dashboard.
 
 Screenshot:
 
-![Role Assignment Complete](screenshots/05-role-assignment-completed.png)
+![Role Assignment Completed](screenshots/role-assignment-completed.png)
 
 ---
 
@@ -86,9 +94,9 @@ Screenshot:
 
 Successfully assigned Reader role at the resource group scope.
 
-User can now:
+User permissions:
 
-- View resources
+- Can view resources
 - Cannot modify resources
 
 This follows the least privilege access model.
@@ -100,18 +108,18 @@ This follows the least privilege access model.
 - Azure RBAC configuration
 - Role assignment
 - Resource group scope access control
-- Access verification
+- Identity and access management
 - Least privilege security model
 
 ---
 
 ## Real-World Relevance
 
-This is a core task performed by:
+This task is commonly performed by:
 
 - IAM Engineers
 - Cloud Identity Engineers
 - Azure Administrators
 - Cloud Security Engineers
 
-RBAC ensures secure and controlled access to cloud resources.
+RBAC ensures secure and controlled access to enterprise cloud resources.
