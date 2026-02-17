@@ -1,131 +1,109 @@
 # Azure IAM Labs
 
-Hands-on Azure IAM labs demonstrating enterprise identity and access management using Azure RBAC, Managed Identity, Service Principals, Key Vault, and secure resource access control.
+Hands-on Azure Identity and Access Management (IAM) labs demonstrating enterprise-grade access control using Azure RBAC, Managed Identity, Service Principals, and secure resource access configuration.
 
-These labs simulate real-world enterprise IAM scenarios in Microsoft Azure cloud environments and reflect the responsibilities of IAM Engineers and Cloud Identity Engineers.
-
----
-
-## Lab Progression
-
-These labs follow real-world Azure IAM implementation order:
-
-Foundation → Access Control → Identity Authentication → Secure Resource Access → Least Privilege Roles
+These labs simulate real-world IAM engineering scenarios performed in Microsoft Azure environments.
 
 ---
 
 ## Labs Included
 
-### 1️⃣ Resource Group Creation and RBAC Foundation
-Created Azure Resource Group to organize resources and establish IAM access control foundation.
+### 1️⃣ Resource Group Creation
+Created Azure resource groups to organize and scope access control for cloud resources.
+
+📁 Folder: resource-group-creation/
 
 Skills demonstrated:
 
-- Resource Group creation
-- Azure resource organization
-- IAM scope boundaries
-- RBAC scope preparation
-- Azure subscription resource management
+- Azure Resource Manager (ARM)
+- Resource organization
+- Azure subscription and region management
+
+---
+
+### 2️⃣ Resource Group RBAC
+Assigned Azure RBAC roles to users at the resource group scope to enforce least privilege access control.
 
 📁 Folder: resource-group-rbac/
 
----
-
-### 2️⃣ Virtual Machine RBAC
-Assigned IAM roles to control access to Azure Virtual Machines.
-
 Skills demonstrated:
 
-- VM access control
-- Role assignment at resource scope
-- Least privilege enforcement
+- Azure RBAC role assignment
+- Least privilege access model
+- Role scope management
+- Access verification
+
+---
+
+### 3️⃣ Virtual Machine RBAC
+Configured role assignments for Azure Virtual Machines.
 
 📁 Folder: virtual-machine-rbac/
 
----
-
-### 3️⃣ Managed Identity Configuration
-Configured system-assigned Managed Identity for secure authentication to Azure resources without storing credentials.
-
 Skills demonstrated:
 
-- Managed Identity creation
-- Passwordless authentication
-- Secure service-to-service authentication
+- VM-level access control
+- Azure IAM role scoping
+
+---
+
+### 4️⃣ Managed Identity Configuration
+Configured Managed Identity for secure authentication between Azure services.
 
 📁 Folder: managed-identity/
 
----
-
-### 4️⃣ Azure Key Vault Access Control
-Configured RBAC and access policies to securely manage secrets and control access.
-
 Skills demonstrated:
 
-- Secret access control
-- Secure credential storage
-- RBAC-based secret access
-- Enterprise secret management
+- System-assigned managed identity
+- Service authentication without credentials
+
+---
+
+### 5️⃣ Azure Key Vault Access Control
+Configured RBAC and access policies to securely manage secrets.
 
 📁 Folder: key-vault-access/
 
----
-
-### 5️⃣ Custom RBAC Role Creation
-Created custom Azure RBAC roles using least privilege access model.
-
 Skills demonstrated:
 
-- Custom role creation
-- Least privilege access design
-- Enterprise IAM role engineering
+- Key Vault RBAC
+- Secret access management
+- Secure identity access
+
+---
+
+### 6️⃣ Custom RBAC Role Creation
+Created custom roles implementing least privilege access.
 
 📁 Folder: custom-rbac-role/
 
+Skills demonstrated:
+
+- Custom role definitions
+- Permission scoping
+
 ---
 
-### 6️⃣ Storage Account Access Control
-Configured RBAC roles for secure access to Azure Storage resources.
+### 7️⃣ Storage Account Access Control
+Configured RBAC roles for Azure Storage Accounts.
+
+📁 Folder: storage-account-access/
 
 Skills demonstrated:
 
-- Storage access control
-- Identity-based access enforcement
-- Resource-level IAM configuration
-
-📁 Folder: storage-account-access/
+- Storage IAM configuration
+- Access enforcement
 
 ---
 
 ## Skills Demonstrated
 
-### Azure Identity and Access Management
-
-- Azure RBAC configuration
-- Role assignment and access control
-- Resource-level IAM implementation
-- Scope-based access control
-- Least privilege security model
-
-### Identity Authentication and Security
-
-- Managed Identity authentication
-- Service Principal authentication
-- Secure credential-free authentication
-- Enterprise identity architecture
-
-### Secure Resource Access
-
-- Azure Key Vault access control
-- Storage Account access management
-- Virtual Machine IAM access control
-- Secret and credential protection
-
-### Cloud IAM Architecture
-
-- Identity-based access enforcement
-- Resource group access boundaries
-- Enterprise IAM design patterns
+- Azure RBAC
+- Identity and access management
+- Least privilege access model
+- Azure resource access control
+- Enterprise IAM architecture
+- Microsoft Entra ID integration
 - Cloud security best practices
 
 ---
@@ -135,12 +113,28 @@ Skills demonstrated:
 - Microsoft Azure Portal
 - Microsoft Entra ID
 - Azure RBAC
-- Azure Managed Identity
+- Azure Resource Manager
 - Azure Key Vault
 - Azure Virtual Machines
-- Azure Storage Accounts
 - GitHub
 
 ---
 
-## Repository Structure
+## Purpose
+
+This repository demonstrates hands-on Azure IAM engineering skills aligned with real-world enterprise environments.
+
+Relevant for roles such as:
+
+- IAM Engineer
+- Cloud Identity Engineer
+- Azure Administrator
+- Cloud Security Engineer
+- IAM Analyst
+
+---
+
+## Author
+
+Abdulaziz Abdi  
+Cloud Identity & IAM Engineer Track
