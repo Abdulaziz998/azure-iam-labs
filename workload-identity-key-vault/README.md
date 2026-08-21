@@ -57,7 +57,7 @@ PowerShell validation output
 
 ## Evidence
 
-Screenshots for this lab belong in `screenshots/` using sanitized filenames.
+Screenshots for this lab are stored in `screenshots/` using sanitized filenames.
 
 | File | Purpose |
 | --- | --- |
@@ -75,6 +75,58 @@ Screenshots for this lab belong in `screenshots/` using sanitized filenames.
 | `12-managed-identity-keyvault-success.png` | Shows successful managed identity authentication and Key Vault secret retrieval |
 
 Do not include screenshots that reveal secret values, tenant IDs, subscription IDs, object IDs, access tokens, or other sensitive data.
+
+---
+
+## Screenshot Evidence
+
+### Clean Resource Group
+
+![Empty Resource Group](screenshots/01-empty-resource-group.png)
+
+### Key Vault RBAC Configuration
+
+![Key Vault RBAC Configuration](screenshots/02-key-vault-rbac-configuration.png)
+
+### Key Vault Overview
+
+![Key Vault Overview](screenshots/03-key-vault-overview.png)
+
+### Automation Account Managed Identity
+
+![Automation Account Managed Identity](screenshots/04-automation-account-managed-identity.png)
+
+### Key Vault Secrets User Role
+
+![Key Vault Secrets User Role](screenshots/05-key-vault-secrets-user-role.png)
+
+### Managed Identity Selected
+
+![Managed Identity Selected](screenshots/06-managed-identity-selected.png)
+
+### Role Assignment Review
+
+![Role Assignment Review](screenshots/07-role-assignment-review.png)
+
+### User Denied Data-Plane Access
+
+![User Denied Data Plane Access](screenshots/08-user-denied-key-vault-data-access.png)
+
+### Admin Secrets Officer Assignment
+
+![Admin Secrets Officer Assignment](screenshots/09-admin-secrets-officer-assignment.png)
+
+### Test Secret Created
+
+![Test Secret Created](screenshots/10-test-secret-created.png)
+
+### Runbook Published
+
+![Runbook Published](screenshots/11-runbook-published.png)
+
+### Managed Identity Key Vault Success
+
+![Managed Identity Key Vault Success](screenshots/12-managed-identity-keyvault-success.png)
 
 ---
 
