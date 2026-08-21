@@ -1,17 +1,34 @@
 # Azure IAM Labs
 
-Hands-on Azure Identity and Access Management (IAM) labs demonstrating enterprise-grade access control using Azure RBAC, Managed Identity, Service Principals, and secure resource access configuration.
+Hands-on Azure Identity and Access Management (IAM) labs demonstrating enterprise-grade access control using Azure RBAC, Managed Identity, Key Vault, and secure Azure resource access.
 
-These labs simulate real-world IAM engineering scenarios performed in Microsoft Azure environments.
+These labs simulate real-world IAM engineering scenarios performed in Microsoft Azure environments, progressing from foundational resource access control to passwordless workload identity.
 
 ---
 
 ## Labs Included
 
+### Featured Advanced Lab — Workload Identity and Key Vault
+
+Configured an Azure Automation Account with a system-assigned managed identity to access Azure Key Vault without stored credentials.
+
+Folder: `workload-identity-key-vault/`
+
+Skills demonstrated:
+
+- Azure workload identity
+- System-assigned managed identity
+- Azure Key Vault RBAC
+- Passwordless authentication between Azure services
+- Secret retrieval without exposing secret values
+- PowerShell runbook validation
+
+---
+
 ### 1️⃣ Resource Group Creation
 Created Azure resource groups to organize and scope access control for cloud resources.
 
-📁 Folder: resource-group-creation/
+Folder: `resource-group-creation/`
 
 Skills demonstrated:
 
@@ -24,7 +41,7 @@ Skills demonstrated:
 ### 2️⃣ Resource Group RBAC
 Assigned Azure RBAC roles to users at the resource group scope to enforce least privilege access control.
 
-📁 Folder: resource-group-rbac/
+Folder: `resource-group-rbac/`
 
 Skills demonstrated:
 
@@ -38,7 +55,7 @@ Skills demonstrated:
 ### 3️⃣ Virtual Machine RBAC
 Configured role assignments for Azure Virtual Machines.
 
-📁 Folder: virtual-machine-rbac/
+Folder: `virtual-machine-rbac/`
 
 Skills demonstrated:
 
@@ -50,7 +67,7 @@ Skills demonstrated:
 ### 4️⃣ Managed Identity Configuration
 Configured Managed Identity for secure authentication between Azure services.
 
-📁 Folder: managed-identity/
+Folder: `managed-identity/`
 
 Skills demonstrated:
 
@@ -62,7 +79,7 @@ Skills demonstrated:
 ### 5️⃣ Azure Key Vault Access Control
 Configured RBAC and access policies to securely manage secrets.
 
-📁 Folder: key-vault-access/
+Folder: `key-vault-access/`
 
 Skills demonstrated:
 
@@ -75,7 +92,7 @@ Skills demonstrated:
 ### 6️⃣ Custom RBAC Role Creation
 Created custom roles implementing least privilege access.
 
-📁 Folder: custom-rbac-role/
+Folder: `custom-rbac-role/`
 
 Skills demonstrated:
 
@@ -87,7 +104,7 @@ Skills demonstrated:
 ### 7️⃣ Storage Account Access Control
 Configured RBAC roles for Azure Storage Accounts.
 
-📁 Folder: storage-account-access/
+Folder: `storage-account-access/`
 
 Skills demonstrated:
 
@@ -105,6 +122,9 @@ Skills demonstrated:
 - Enterprise IAM architecture
 - Microsoft Entra ID integration
 - Cloud security best practices
+- Workload identity authentication
+- Azure Key Vault secret access control
+- PowerShell automation
 
 ---
 
@@ -116,6 +136,8 @@ Skills demonstrated:
 - Azure Resource Manager
 - Azure Key Vault
 - Azure Virtual Machines
+- Azure Automation Account
+- PowerShell
 - GitHub
 
 ---
